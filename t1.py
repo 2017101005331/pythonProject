@@ -1,0 +1,41 @@
+import numpy as np
+''' 
+import numpy
+arr=numpy.array([1,2,3,4,5])
+print(arr) 
+'''
+'''
+arr=np.array((((1,2,3,34,4),(1,2,3,6,7,8,98)),((1,32,45,67),(1,2,8,98))))
+print(arr)  
+'''
+'''
+arr=np.array([[1,2,3],[4,5,6]])
+arr1=np.array([[[[1,2,3],[4,5,6,7]],[[4,5,6,6,6],[1,2,3]]]])
+print(arr.ndim)
+print(arr1.ndim)
+'''
+'''
+arr=np.array([1,2,3,4,5],ndmin=5)
+print(arr)
+print('number of dimensions :', arr.ndim)
+'''
+'''
+arr=np.array([1,2,3,4])
+print(arr.dtype)
+'''
+'''
+arr=np.array(['a','b','cvd'])
+print(arr.dtype)
+'''
+'''
+arr=np.array([1,2,3,4])
+a=arr.astype(bool)
+print(a)
+'''
+'''
+arr=np.array([1,2,2,34])
+x=arr.copy()
+arr[0]=42
+print(arr)
+print(x)
+'''
